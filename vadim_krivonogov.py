@@ -2,22 +2,7 @@
 from math import *
 from random import *
 
-#13.12.22
-r=randint(-100,100)
-a=randint (-100,0)
-print (f"{r}=)\na={a}")
-if r>0 and a>0:
-    Skv=a**2
-    Skr=pi*r**2
-    if Skv>Skr:
-         print(f"Ruudu pindala {Skv} m^^2 on suurem ringi pindala {Skr} m^2")
-    elif Skr>Skv:
-        print(f"Ruudu pindala {Skr} m^^2 on suurem ringi pindala {Skv} m^2")
-    else:
-         print("Pindalad on võrised. {Skr} m^2")
-else:
-    print(f"(a) ja (r) paevad > kui 0 olla")
-print()
+
 
 #1
 print("Puu läbimõõdu arvutamine")
@@ -142,3 +127,19 @@ t=int(v//60)
 sec=int(v%60)
 print(f"minutes {t}:sekundid {sec}")
 
+#13.12.22
+r=randint(-100,100)
+a=randint (-100,0)
+print (f"{r}=)\na={a}")
+if r>0 and a>0:
+    Skv=a**2
+    Skr=pi*r**2
+    if Skv>Skr:
+         print(f"Ruudu pindala {Skv} m^^2 on suurem ringi pindala {Skr} m^2")
+    elif Skr>Skv:
+        print(f"Ruudu pindala {Skr} m^^2 on suurem ringi pindala {Skv} m^2")
+    else:
+         print("Pindalad on võrised. {Skr} m^2")
+else:
+    print(f"(a) ja (r) paevad > kui 0 olla")
+print()
